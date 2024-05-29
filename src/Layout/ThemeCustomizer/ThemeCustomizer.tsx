@@ -15,9 +15,9 @@ const ThemeCustomizer = () => {
   };
   return (
     <>
-      <div className={`customizer-links ${openCus ? 'open' : ''}`}>
+      {/* <div className={`customizer-links ${openCus ? 'open' : ''}`}>
         <NavCustomizer callbackNav={callbackNav} selected={selected} />
-      </div>
+      </div> */}
       <div className={`customizer-contain ${openCus ? 'open' : ''}`}>
         <TabCustomizer selected={selected} callbackNav={callbackNav} />
       </div>

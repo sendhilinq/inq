@@ -13,9 +13,9 @@ const RightHeader = () => {
   return (
     <Col xl="7"  xs="8" className="nav-right pull-right right-header p-0 ms-auto">
       <UL className="nav-menus simple-list flex-row">
-        <ResponsiveSearchBar />
-        <SearchBar />
-        <Language />
+        {/* <ResponsiveSearchBar /> */}
+        {/* <SearchBar /> */}
+        
         <ZoomInOut /> 
         <HeaderBookmark /> 
         <DarkMode /> 

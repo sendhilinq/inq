@@ -2,12 +2,12 @@ import { Card, Col, Container, Row } from 'reactstrap'
 import FileSideBar from './FileSideBar/FileSideBar'
 import FileContent from './FileContent/FileContent'
 import Breadcrumbs from '../../../CommonElements/Breadcrumbs/Breadcrumbs'
-import { Apps, FileManagerHeading } from '../../../utils/Constant'
+import { Apps, SchoolsHeading } from '../../../utils/Constant'
 
 const FileManagerContainer = () => {
   return (
     <>
-      <Breadcrumbs mainTitle={FileManagerHeading} parent={Apps} />
+      <Breadcrumbs mainTitle={SchoolsHeading} parent={Apps} />
       <Container fluid>
         <Row>
           <FileSideBar />

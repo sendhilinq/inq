@@ -17,7 +17,7 @@ const Login = () => {
       event.preventDefault();
       if (email === "test123@gmail.com" && password === "Test@123") {
         localStorage.setItem("login", JSON.stringify(true));
-        navigate(`${process.env.PUBLIC_URL}/dashboard/default`);
+        navigate(`${process.env.PUBLIC_URL}/dashboard`);
       } else {
         toast.error("Please Enter valid email or password...!");
       }
@@ -67,14 +67,7 @@ const Login = () => {
                       </Btn>
                     </div>
                   </FormGroup>
-                  <H6 className="text-muted mt-4 or">{SignInWith}</H6>
-                  <SocialApp />
-                  <P className="mt-4 mb-0 text-center">
-                    {DoNotAccount}
-                    <Link className="ms-2" to={`${process.env.PUBLIC_URL}/authentication/registersimple`} >
-                      {CreateAccount}
-                    </Link>
-                  </P>
+                
                 </Form>
               </div>
             </div>

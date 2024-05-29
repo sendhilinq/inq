@@ -1488,6 +1488,7 @@ export const EnterSomeDetails = 'Enter some Details';
 export const UploadProjectFile = 'Upload project file';
 export const Apps = "Apps";
 export const FileManagerHeading = 'File Manager';
+export const SchoolsHeading = 'Schools';
 export const FileFilter = 'File filter';
 export const AddNew = 'Add New';
 export const AllFiles = 'All Files';
@@ -1898,6 +1899,11 @@ export const InvoiceThree= "Invoice 3"
 export const InvoiceFour = "Invoice 4"
 export const InvoiceFive  ="Invoice 5"
 export const InvoiceSix = "Invoice 6"
+
+//Masters
+export const Master = "Masters"
+export const schooluser = "School User"
+
 //Charts - Apex charts
 export const Charts = "Charts"
 export const ApexCharts = "Apex charts"
