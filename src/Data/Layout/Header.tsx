@@ -4,18 +4,9 @@ export const profilesMessage: ProfilesMessageType[] = [
   {
     name: "My Profile",
     icon: "User",
-    link: `${process.env.PUBLIC_URL}/users/userprofile`,
-  },
-  {
-    name: "Inbox",
-    icon: "Mail",
-    link: `${process.env.PUBLIC_URL}/email/letterbox`,
-  },
-  {
-    name: "Settings",
-    icon: "Settings",
     link: `${process.env.PUBLIC_URL}/users/useredit`,
   },
+ 
 ];
 
 export const notificationTab = [

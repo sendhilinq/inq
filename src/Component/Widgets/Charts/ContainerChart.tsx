@@ -4,12 +4,12 @@ import MonthlyHistory from "./MonthlyHistory/MonthlyHistory";
 import LiveProducts from "./LiveProducts/LiveProducts";
 import StockMarket from "./StockMarket/StockMarket";
 import Breadcrumbs from "../../../CommonElements/Breadcrumbs/Breadcrumbs";
-import { Chart, Widgets } from "../../../utils/Constant";
+import { schooluser,Master } from "../../../utils/Constant";
 
 const ContainerChart = () => {
   return (
     <>
-      <Breadcrumbs mainTitle={Chart} parent={Widgets} />
+      <Breadcrumbs mainTitle={schooluser} parent={Master} />
       <Container fluid>
         <TotalSaleWidgets />
         <MonthlyHistory />

@@ -12,15 +12,11 @@ const LeftHeader = () => {
           <i className="iconly-Category"></i>
         </Link>
         <div className="d-flex align-items-center gap-2">
-          <H4 className="f-w-600">Welcome Alex</H4>
+          <H4 className="f-w-600">Welcome Super Admin</H4>
           <Image className="mt-0" src={dynamicImage("hand.gif")} alt="hand-gif" />
         </div> 
       </div>
-      <div className="welcome-content d-xl-block d-none">
-        <Col xs="12" className="text-truncate">
-          Here’s what’s happening with your store today.
-        </Col>
-      </div>
+    
     </Col>
   );
 };

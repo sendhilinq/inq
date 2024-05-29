@@ -125,7 +125,7 @@ import InvoiceSix from '../Pages/Application/Ecommerce/Invoices/Invoice-6/Invoic
 import ProjectManagement from '../Pages/Dashboard/ProjectManagement/ProjectManagement'
 
 const Routes = [
-    { path: `${process.env.PUBLIC_URL}/dashboard/default`, Component: <Default /> },
+    { path: `${process.env.PUBLIC_URL}/dashboard`, Component: <Default /> },
     { path: `${process.env.PUBLIC_URL}/dashboard/ecommerce`, Component: <Ecommerce /> },
     { path: `${process.env.PUBLIC_URL}/dashboard/project`, Component: <ProjectManagement />},
 
@@ -237,6 +237,10 @@ const Routes = [
     // Widgets
     { path: `${process.env.PUBLIC_URL}/widgets/general`, Component: <General />},
     { path: `${process.env.PUBLIC_URL}/widgets/chart`, Component: <Charts />},
+
+    // Masters
+    { path: `${process.env.PUBLIC_URL}/schoolusers`, Component: <Charts />},
+    { path: `${process.env.PUBLIC_URL}/schools`, Component: <FileManager />},
     
     // Form Widgets
     { path: `${process.env.PUBLIC_URL}/forms/formswidget/switch`, Component: <Switch />},
@@ -262,9 +266,7 @@ const Routes = [
     // Applications
     { path: `${process.env.PUBLIC_URL}/project/projectlist`, Component: <ProjectList />},
     { path: `${process.env.PUBLIC_URL}/project/createnew`, Component: <ProjectCreate />},
-
-    // FileManager
-    { path: `${process.env.PUBLIC_URL}/app/filemanager`, Component: <FileManager />},
+   
 
     // Email
     { path: `${process.env.PUBLIC_URL}/email/letterbox`, Component: <LetterBox />},
