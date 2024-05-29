@@ -5,7 +5,7 @@ import { PropsWidgetsType } from "../../../../Types/Widgets/GeneralType";
 
 const TotalSalesCard:React.FC<PropsWidgetsType> = ({changeClass}) => {
   return (
-    <Col xl={changeClass ? "4":"5"} sm="6">
+    <Col xl={changeClass ? "3":"5"} sm="6">
       <Card className="height-equal">
         <CardBody>
           {totalSalesData.map((data,i)=>(

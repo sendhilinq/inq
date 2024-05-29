@@ -123,6 +123,7 @@ import InvoiceFour from '../Pages/Application/Ecommerce/Invoices/Invoice-4/Invoi
 import InvoiceFive from '../Pages/Application/Ecommerce/Invoices/Invoice-5/Invoice-5'
 import InvoiceSix from '../Pages/Application/Ecommerce/Invoices/Invoice-6/Invoice-6'
 import ProjectManagement from '../Pages/Dashboard/ProjectManagement/ProjectManagement'
+import DashBoardDefault from '../Component/school/Dashboard'
 
 const Routes = [
     { path: `${process.env.PUBLIC_URL}/dashboard`, Component: <Default /> },

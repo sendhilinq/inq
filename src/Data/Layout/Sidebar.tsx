@@ -28,7 +28,7 @@ export const MenuList: MenuItem[] = [
    
       // { path: `${process.env.PUBLIC_URL}/app/filemanager`, icon: "file", title: "File Manager", type: "link" },
       { path: `${process.env.PUBLIC_URL}/schools`, icon: "file", title: "Schools", type: "link" },
-      { path: `${process.env.PUBLIC_URL}/schoolusers`,icon: "file",title: "School Users", type: "link" },
+      { path: `${process.env.PUBLIC_URL}/schoolusers`,icon: "user",title: "School Users", type: "link" },
       { path: `${process.env.PUBLIC_URL}/pagelayout/hidenavscroll`,icon: "file", title: "Links", type: "link" }
   
     ],

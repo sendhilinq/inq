@@ -6,7 +6,7 @@ const TotalSales = () => {
   return (
     <Col xxl="6" className="box-col-12">
       <Row>
-        <TotalSalesCard changeClass={false}/>
+        {/* <TotalSalesCard changeClass={false}changeClass/> */}
         <SaleHistory />
       </Row>
     </Col>
